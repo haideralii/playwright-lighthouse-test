@@ -1,0 +1,26 @@
+{
+  "name": "dm-clinic-automation",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --project=chromium --headed",
+    "codegen": "npx playwright codegen https://atom-dmclinical-staging.azurewebsites.net/auth/login"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.35.1",
+    "lighthouse": "9.6.8",
+    "playwright": "1.28.1",
+    "ts-loader": "^9.4.3",
+    "webpack": "^5.87.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@lighthousejs/types": "^0.0.3",
+    "playwright-lighthouse": "2.2.2"
+  }
+}
