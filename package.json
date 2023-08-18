@@ -13,11 +13,7 @@
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.35.1",
-    "lighthouse": "9.6.8",
-    "playwright": "1.28.1",
-    "ts-loader": "^9.4.3",
-    "webpack": "^5.87.0",
-    "webpack-cli": "^5.1.4"
+    "lighthouse": "9.6.8"
   },
   "dependencies": {
     "@lighthousejs/types": "^0.0.3",
